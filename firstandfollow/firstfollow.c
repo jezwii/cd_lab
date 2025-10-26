@@ -65,7 +65,7 @@ void first(char c){
         if(a[i][0] == c){
             if(!isupper(a[i][2])) // first is a terminal
             {
-                if(!is_present(c)){
+                if(!is_present(a[i][2])){
                     f[m++] = a[i][2];
                 }
             }
