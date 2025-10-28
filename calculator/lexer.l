@@ -1,6 +1,6 @@
 
 %{
-#include "calc.tab.h"
+#include "parser.tab.h"
 %}
 
 %%
